@@ -1,0 +1,209 @@
+/* global ---------------------------------------------*/
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 1em;
+    font-weight: 400;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+img {
+    max-width: 100%;    
+}
+
+.hero__img {
+    align-self: flex-start;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fit {
+    position: relative;
+    float: left;
+}
+
+article {
+    width: 80%;
+    margin: 1em;
+}
+
+article p {
+    margin: 1.5em 2em;
+}
+
+header {
+    margin: .5em;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+mark {
+    background: rgb(241, 241, 241);;
+}
+
+/* navbar codes -------------------------------------------------*/
+#navbar {
+    position: fixed;
+    float: right;
+    min-width: 320px;
+    width: 15%;
+    height: 100%;
+    border-right: solid;
+    padding: 0;
+}
+
+@media (max-width: 810px) {
+    #navbar {
+        position: absolute;
+        top: 0;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        max-height: 280px;
+        border-right: none;
+        border-bottom: solid;
+    }
+}
+
+.nav-list {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 70%;
+    padding: 0;
+}
+
+#navbar li{
+    border-top: 1px solid black;
+    position: relative;
+    width: 100%;
+}
+
+.nav-link {
+    width: 100%;
+    text-decoration: none;
+    display: block;
+    padding: .625em 1.875em;
+}
+
+
+/* main-doc codes -----------------------------------------------*/
+section {
+    padding-bottom: 1.5em;
+}
+#main-doc {
+    position: absolute;
+    margin-left: 19em;
+    padding: 1.25em;
+    width: 80%;
+}
+
+@media (max-width: 810px) {
+    #main-doc {
+        position: relative;
+        margin-left: 0;
+        margin-top: 280px;
+    }
+}
+
+.main-section {
+    margin-right: 2em;
+}
+
+.emphasis {
+    font-size: 1.5rem;
+    margin: 1em;
+}
+
+.blue {
+    color: blue;
+}
+.brown {
+    color: brown;
+}
+
+.red {
+    color: red;
+}
+
+.note {
+    width: 100%;
+    margin: 1.5em 0;
+    padding: 1.5em;
+    background: #FFFFCC;
+}
+
+.table {
+    width: 80%;
+    text-align: left;
+    margin: 1em;
+}
+
+.table, td, th {
+    border: 1px solid lightgray;
+}
+
+td, th {
+    background: #F1F1F1;
+    padding: .5em;
+}
+.text-box {
+    margin: .5em;
+}
+#html {
+    width: 80%;
+    border: 1px solid black;
+    background: #DDDDDD;
+}
+
+#head {
+    margin: 1.5em;
+    width: 90%;
+    border: 1px solid black;
+    background: #DDDDDD;
+}
+
+#title {
+    width: 90%;
+    margin: 1.5em;
+    border: 1px solid black;
+    background: #DDDDDD;
+}
+
+#body {
+    width: 90%;
+    margin: 1.5em;
+    border: 1px solid black;
+    background: #DDDDDD;
+}
+
+#sub-body {
+    width: 90%;
+    margin: 1.5em;
+    border: 1px solid black;
+    background: white;
+}
+
+.p {
+    width: 90%;
+    margin: 1em;
+    border: 1px solid black;
+    background: white;
+}
+
+.css-sample {
+    margin: 0 2em;
+}
+
+.inside-p {
+    margin: 0 3em;
+}

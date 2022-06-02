@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container fit">
+        <nav id="navbar">
+            <header class="doc-title">HTML & CSS</header>
+            <ul class="nav-list">
+                <li>
+                    <a href="#html_intro" class="nav-link">HTML Introduction</a>
+                </li>
+                <li>
+                    <a href="#what-is-html" class="nav-link">What is HTML</a>
+                </li>
+                <li>
+                    <a href="#sample" class="nav-link">Simple HTML Document</a>
+                </li>
+                <li>
+                    <a href="#explain" class="nav-link">Example Explained</a>
+                </li>
+                <li>
+                    <a href="#elements" class="nav-link">WHat is an HTML Element</a>
+                </li>
+                <li>
+                    <a href="#web-browsers" class="nav-link">Web Browsers</a>
+                </li>
+                <li>
+                    <a href="#page-structure" class="nav-link">HTML Page Structure</a>
+                </li>
+                <li>
+                    <a href="#history" class="nav-link">HTML History</a>
+                </li>
+                <li>
+                    <a href="#css_intro" class="nav-link">CSS Introduction</a>
+                </li>
+                <li>
+                    <a href="#why" class="nav-link">Why Use CSS?</a>
+                </li>
+                <li>
+                    <a href="#css_example" class="nav-link">CSS Example</a>
+                </li>
+                <li>
+                    <a href="#css_solve" class="nav-link">CSS Solved a Big Problem</a>
+                </li>
+                <li>
+                    <a href="#css_saves" class="nav-link">CSS Saves a Lot of Work</a>
+                </li>
+                <li>
+                    <a href="#css_syntax" class="nav-link">CSS Syntax</a>
+                </li>
+                <li>
+                    <a href="#css_sample_syntax" class="nav-link">CSS Sample Syntax</a>
+                </li>
+                <li>
+                    <a href="#css_example2" class="nav-link">Example Explain</a>
+                </li>
+                <li>
+                    <a href="#reference" class="nav-link">Reference</a>
+                </li>
+            </ul>
+        </nav>
+        <main id="main-doc">
+            <section class="main-section" id="html_intro">
+                <header>HTML Introduction</header>
+                <article>
+                    <p><strong>HTML</strong> is the standard markup language for creating Web pages.</p>
+                </article>
+            </section>
+            <section class="main-section" id="what-is-html">
+                <header>What is HTML</header>
+                <article>
+                    <ul>
+                        <li>HTML stands for Hyper Text Markup Language</li>
+                        <li>HTML is the standard markup language for creating Web pages</li>
+                        <li>HTML describes the structure of a Web page</li>
+                        <li>HTML consists of a series of elements</li>
+                        <li>HTML elements tell the browser how to display the content</li>
+                        <li>HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a link", etc.</li>
+                    </ul>
+                </article>
+            </section>
+            <section class="main-section" id="sample">
+                <header>A simple HTML Document</header>
+                <article>
+                    <p><img class="hero__img" src="https://www.w3schools.com/html/img_notepad.png" alt="simple html doc sample"></p>
+                </article>
+            </section>
+            <section class="main-section" id="explain">
+                <header>Example Explained</header>
+                <article>
+                    <ul>
+                        <li>The <mark><span class="red">&lt;!DOCTYPE html&gt;</span></mark> declaration defines that this document is an HTML5 document</li>
+                        <li>The <mark><span class="red">&lthtml&gt;</span></mark> element is the root element of an HTML page</li>
+                        <li>The <mark><span class="red">&lt;head&gt</span></mark> element contains meta information about the HTML page</li>
+                        <li>The <mark><span class="red">&lttitle&gt;</span></mark> element specifies a title for the HTML page (which is shown in the browser's title bar or in the page's tab)</li>
+                        <li>The <mark><span class="red">&lt;body&gt;</span></mark> element defines the document's body, and is a container for all the visible contents, such as headings, paragraphs, images, hyperlinks, tables, lists, etc.</li>
+                        <li>The <mark><span class="red">&lt;h1&gt;</span></mark> element defines a large heading</li>
+                        <li>The <mark><span class="red">&lt;p&gt;</span></mark> element defines a paragraph</li>
+                    </ul>
+                </article>
+            </section>
+            <section class="main-section" id="elements">
+                <header>What is an HTML Element?</header>
+                <article>
+                    <p>An HTML element is defined by a start tag, some content, and an end tag:</p>
+                    <p class="emphasis"><span class="blue">&lt;<span class="brown">tagname</span>&gt;</span>Content goes here...<span class="blue">&lt;<span class="brown">/tagname</span>&gt;</span></p>
+                    <p>The HTML element is everything from the start tag to the end tag:</p>
+                    <p class="emphasis"><span class="blue">&lt;<span class="brown">h1</span>&gt;</span>My First Heading<span class="blue">&lt;<span class="brown">h1</span>&gt;</span></p>
+                    <p class="emphasis"><span class="blue">&lt;<span class="brown">/h1</span>&gt;</span>My first paragraph<span class="blue">&lt;<span class="brown">/p</span>&gt;</span></p>
+
+                    <table class=table>
+                        <tr>
+                            <th>Start tag</th>
+                            <th>Element content</th>
+                            <th>End tag</th>
+                        </tr>
+                        <tr>
+                            <td>&lt;h1&gt;</td>
+                            <td>My First Heading</td>
+                            <td>&lt;/h1&gt;</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;p&gt;</td>
+                            <td>My first paragraph</td>
+                            <td>&lt;/p&gt;</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;br&gt;</td>
+                            <td>none</td>
+                            <td>&lt;/br&gt;</td>
+                        </tr>
+                    </table>
+                </article>
+                <div class="note">
+                    <p>Note: Some HTML elements have no content (like the &lt;br&gt; element). These elements are called empty elements. Empty elements do not have an end tag!</p>
+                </div>
+            </section>
+            <section class="main-section" id="web-browsers">
+                <header>Web Browsers</header>
+                <article>
+                    <p>The purpose of a web browser (Chrome, Edge, Firefox, Safari) is to read HTML documents and display them correctly.</p>
+                    <p>A browser does not display the HTML tags, but uses them to determine how to display the document:</p>
+                    <p><img class="hero__img" src="https://www.w3schools.com/html/img_chrome.png" alt="browser with html"></p>
+                </article>
+            </section>
+            <section class="main-section" id="page-structure">
+                <header>HTML Page Structure</header>
+                <article>
+                    <p>Below is a visualization of an HTML page structure:</p>
+                    <div id="html">
+                        <p class="text-box">&lt;html&gt;</p>
+                        <div id="head">
+                            <p class="text-box">&lt;head&gt;</p>
+                            <div id="title">
+                                <p class="text-box">&lt;title&gt;Page title&lt;/title&gt;</p>
+                            </div>
+                            <p class="text-box">&lt;/head&gt;</p>
+                        </div>
+
+                        <div id="body">
+                            <p class="text-box">&lt;body&gt;</p>
+                            <div id="sub-body">
+                                <div class="p">
+                                    <p class="text-box">&lt;p&gt;This is a heading&lt;/p&gt;</p>
+                                </div>
+                                <div class="p">
+                                    <p class="text-box">&lt;p&gt;This is a paragraph&lt;/p&gt;</p>
+                                </div>
+                                <div class="p">
+                                    <p class="text-box">&lt;p&gt;This is another paragraph&lt;/p&gt;</p>
+                                </div>
+                            </div>
+                            <p class="text-box">&lt;/body&gt;</p>
+                        </div>
+                        <p class="text-box">&lt;/html&gt;</p>
+                    </div>
+                </article>
+                <div class="note">
+                    <p>Note: Only the content inside the &lt;body&gt; section (the white area above) will be displayed in a browser.</p>
+                </div>
+            </section>
+            <section class="main-section" id="history">
+                <header>HTML History</header>
+                <article>
+                    <table class="table">
+                        <tr>
+                            <th>Year</th>
+                            <th>Version</th>
+                        </tr>
+                        <tr>
+                            <td>1989</td>
+                            <td>Tim Berners-Lee invented www</td>
+                        </tr>
+                        <tr>
+                            <td>1991</td>
+                            <td>Tim Berners-Lee invented HTML</td>
+                        </tr>
+                        <tr>
+                            <td>1993</td>
+                            <td>Dave Raggett drafted HTML+</td>
+                        </tr>
+                        <tr>
+                            <td>1995</td>
+                            <td>HTML Working Group defined HTML 2.0</td>
+                        </tr>
+                        <tr>
+                            <td>1997</td>
+                            <td>W3C Recommendation: HTML 3.2</td>
+                        </tr>
+                        <tr>
+                            <td>1999</td>
+                            <td>W3C Recommendation: HTML 4.01</td>
+                        </tr>
+                        <tr>
+                            <td>2000</td>
+                            <td>W3C Recommendation: XHTML 1.0</td>
+                        </tr>
+                        <tr>
+                            <td>2008</td>
+                            <td>WHATWG HTML5 First Public Draft</td>
+                        </tr>
+                        <tr>
+                            <td>2012</td>
+                            <td>WHATWG HTML5 Living Standard</td>
+                        </tr>
+                        <tr>
+                            <td>2014</td>
+                            <td>W3C Recommendation: HTML5</td>
+                        </tr>
+                        <tr>
+                            <td>2016</td>
+                            <td>W3C Candidate Recommendation: HTML 5.1</td>
+                        </tr>
+                        <tr>
+                            <td>2017</td>
+                            <td>W3C Recommendation: HTML5.1 2nd Edition</td>
+                        </tr>
+                        <tr>
+                            <td>2017</td>
+                            <td>W3C Recommendation: HTML5.2</td>
+                        </tr>
+                    </table>
+                </article>
+                <div class="note">
+                    <p>This tutorial follows the latest HTML 5 standard</p>
+                </div>
+            </section>
+            </section>
+            <section class="main-section" id="css_intro">
+                <header>CSS Introduction</header>
+                <article>
+                    <header class="header2">What is CSS</header>
+                    <ul>
+                        <li><strong>CSS</strong> stands for <strong>C</strong>ascading <strong>S</strong>tyle <strong>S</strong>heets</li>
+                        <li>CSS describes how <strong>HTML elements are to be displayed on screen, paper, or in other media</strong></li>
+                        <li>CSS <strong>saves a lot of work.</strong> It can control the layout of multiple web pages all at once</li>
+                        <li>External stylesheets are stored in <strong>CSS files</strong></li>
+                    </ul>
+                </article>
+            </section>
+            <section class="main-section" id="why">
+                <header>Why Use CSS?</header>
+                <article>
+                    <p>CSS is used to define styles for your web pages, including the design, layout and variations in display for different devices and screen sizes.</p>
+                </article>
+            </section>
+            <section class="main-section" id="css_example">
+                <header>CSS Example</header>
+                <article>
+                    <p><img class="hero__img" src="https://s3.amazonaws.com/impressivewebs/2014-02/code-embedded.jpg" alt="css sample"></p>
+                </article>
+            </section>
+            <section class="main-section" id="css_solve">
+                <header>CSS Solved a Big Problem</header>
+                <article>
+                    <p>HTML was NEVER intended to contain tags for formatting a web page!</p>
+                    <p>HTML was created to <strong>describe the content</strong> of a web page, like:</p>
+                    <p>&lt;h1&gt;This is a heading&lt;/h1&gt;</p>
+                    <p>&lt;p&gt;This is a paragraph&lt;/p&gt;</p>
+                    <p>When tags like &lt;font&gt;, and color attributes were added to the HTML 3.2 specification, it started a nightmare for web developers. Development of large websites, where fonts and color information were added to every single page, became a long and expensive process.</p>
+                    <p>To solve this problem, the World Wide Web Consortium (W3C) created CSS.</p>
+                    <p>CSS removed the style formatting from the HTML page!</p>
+                </article>
+                <div class="note">
+                    <p>If you don't know what HTML is, we suggest that you read our HTML Tutorial.</p>
+                </div>
+            </section>
+            <section class="main-section" id="css_saves">
+                <header>CSS Saves a Lot of Work!</header>
+                <article>
+                    <p>The style definitions are normally saved in external .css files.</p>
+                    <p>With an external stylesheet file, you can change the look of an entire website by changing just one file!</p>
+                </article>
+            </section>
+            <section class="main-section" id="css_syntax">
+                <header>CSS Syntax</header>
+                <article>
+                    <p>A CSS rule-set consists of a selector and a declaration block:</p>
+                    <p><img class="hero__img" src="https://www.w3schools.com/css/selector.gif" alt="css syntax sample"></p>
+                    <p>The selector points to the HTML element you want to style.</p>
+                    <p>The declaration block contains one or more declarations separated by semicolons.</p>
+                    <p>Each declaration includes a CSS property name and a value, separated by a colon.</p>
+                    <p>Multiple CSS declarations are separated with semicolons, and declaration blocks are surrounded by curly braces.</p>
+                </article>
+            </section>
+            <section class="main-section" id="css_sample-syntax">
+                <header>Sample Syntax</header>
+                <article>
+                    <p>In this example all &lt;p&gt; elements will be center-aligned, with a red text color:</p>
+                    <div class="css-sample">
+                    <p class="emphasis"><span class=brown>p</span> {</p>
+                    <div class="inside-p">
+                        <p class="emphasis"><span class="red">color</span>: <span class="blue">red</span>;</p>
+                        <p class="emphasis"><span class="red">text-align</span>: <span class="blue">center</span>;</p>
+                    </div>
+                    <p class="emphasis">}</p>
+                    </div>
+                </article>
+                <div class="note">
+                    <p>You will learn much more about CSS selectors and CSS properties in the next chapters.</p>
+                </div>
+            </section>
+            <section class="main-section" id="css_example2">
+                <header>Example Explained</header>
+                <article>
+                    <ul>
+                        <li><span class="red">p</span> is a <strong>selector</strong> in CSS (it points to the HTML element you want to style: &lt;p&gt;).</li>
+                        <li><span class="red">color</span> is a property, and <span class="red">red</span> is the property value</li>
+                        <li><span class="red">text-align</span> is a property, and <span class="red">center</span> is the property value</li>
+                    </ul>
+                </article>                    
+            </section>
+            <section class="main-section" id="reference">
+                <header>Reference</header>
+                <article>
+                    <ul>
+                        <li>All the documentation in this page is taken from <a href="https://www.w3schools.com/html/html_intro.asp">W3Schools</a></li>
+                    </ul>
+                </article>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
